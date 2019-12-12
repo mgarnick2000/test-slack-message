@@ -34,7 +34,7 @@ class SendMessage extends PureComponent {
     var xhr = new XMLHttpRequest();
     xhr.open(
       "POST",
-      "https://hooks.slack.com/services/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"
+      "https://hooks.slack.com/services/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"
     );
     xhr.send(JSON.stringify(slackMessage));
 
