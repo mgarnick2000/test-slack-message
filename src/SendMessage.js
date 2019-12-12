@@ -15,15 +15,16 @@ class SendMessage extends PureComponent {
           title: "Do you approve this Skill Update?",
           actions: [
             {
-              name: "Approve",
               text: "Approve",
+              style: "primary",
               type: "button",
+              url: "https://skillbase-staging.techtonic.com/resources/50",
               value: "Approve"
             },
             {
-              name: "Deny",
               text: "Deny",
               type: "button",
+              url: "https://skillbase-staging.techtonic.com/resources/50",
               value: "Deny"
             }
           ]
